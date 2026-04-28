@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "name": "Baby Stroller Lite",
+    "category": "stroller",
+    "category_hierarchy": ["gear", "stroller"],
+    "price": 300,
+    "price_segment": "budget",
+    "weight": "6kg",
+    "features": ["lightweight", "easy fold", "travel-friendly"],
+    "region_use_case": ["hot weather", "travel", "mall use"],
+    "climate_suitability": ["hot weather"],
+    "living_situation": ["apartment", "city living"],
+    "age_stage": "0-2 years",
+    "parent_need": ["easy travel", "compact storage"],
+    "safety_level": "high",
+    "rating": 4.5,
+    "languages": ["english", "arabic"],
+    "reviews": [
+      "Very easy to carry while traveling",
+      "Works well in Dubai heat",
+      "Folds quickly with one hand",
+      "ممتاز للسفر وخفيف جدا"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Comfort Stroller Pro",
+    "category": "stroller",
+    "price": 500,
+    "weight": "9kg",
+    "features": ["very comfortable", "big wheels", "strong frame"],
+    "climate": "moderate weather",
+    "reviews": [
+      "Very comfortable for baby",
+      "A bit heavy to carry",
+      "Not ideal for travel"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Travel Stroller Compact",
+    "category": "stroller",
+    "category_hierarchy": ["gear", "stroller"],
+    "price": 400,
+    "price_segment": "mid-range",
+    "weight": "5kg",
+    "features": ["ultra lightweight", "compact fold", "carry-on friendly"],
+    "region_use_case": ["hot weather", "travel", "flight"],
+    "climate_suitability": ["hot weather"],
+    "living_situation": ["apartment", "small car"],
+    "age_stage": "0-2 years",
+    "parent_need": ["frequent travel", "compact storage"],
+    "safety_level": "high",
+    "rating": 4.7,
+    "languages": ["english"],
+    "reviews": [
+      "Perfect for flights",
+      "Super lightweight",
+      "Great for small cars"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Luxury Baby Stroller Max",
+    "category": "stroller",
+    "category_hierarchy": ["gear", "stroller"],
+    "price": 700,
+    "price_segment": "premium",
+    "weight": "10kg",
+    "features": ["premium build", "extra padding", "smooth ride"],
+    "region_use_case": ["long walks", "outdoor use"],
+    "climate_suitability": ["moderate weather"],
+    "living_situation": ["villa"],
+    "age_stage": "0-3 years",
+    "parent_need": ["premium comfort"],
+    "safety_level": "high",
+    "rating": 4.8,
+    "languages": ["english"],
+    "reviews": [
+      "Very high quality",
+      "Heavy but very stable",
+      "Best for long walks"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Baby Monitor SmartCam",
+    "category": "monitor",
+    "category_hierarchy": ["nursery", "monitor"],
+    "price": 150,
+    "price_segment": "budget",
+    "features": ["night vision", "wifi enabled", "mobile app"],
+    "parent_need": ["remote monitoring"],
+    "rating": 4.3,
+    "languages": ["english", "arabic"],
+    "reviews": [
+      "Clear video quality",
+      "Easy to connect",
+      "App sometimes lags",
+      "جودة الصورة ممتازة"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Advanced Baby Monitor Pro",
+    "category": "monitor",
+    "category_hierarchy": ["nursery", "monitor"],
+    "price": 250,
+    "price_segment": "mid-range",
+    "features": ["HD video", "temperature sensor", "two-way audio"],
+    "parent_need": ["safety monitoring"],
+    "rating": 4.6,
+    "languages": ["english"],
+    "reviews": [
+      "Very clear HD video",
+      "Love the temperature alerts",
+      "Audio is very useful"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Portable Baby Crib Foldable",
+    "category": "crib",
+    "category_hierarchy": ["nursery", "crib"],
+    "price": 200,
+    "price_segment": "budget",
+    "weight": "7kg",
+    "features": ["foldable", "lightweight", "travel-friendly"],
+    "living_situation": ["apartment"],
+    "parent_need": ["space saving"],
+    "rating": 4.4,
+    "languages": ["english"],
+    "reviews": [
+      "Very easy to fold",
+      "Good for travel",
+      "Takes little space"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Wooden Baby Crib Classic",
+    "category": "crib",
+    "category_hierarchy": ["nursery", "crib"],
+    "price": 450,
+    "price_segment": "mid-range",
+    "features": ["strong wood", "durable", "classic design"],
+    "living_situation": ["villa"],
+    "parent_need": ["durability"],
+    "rating": 4.7,
+    "languages": ["english"],
+    "reviews": [
+      "Very sturdy",
+      "Looks beautiful",
+      "A bit expensive but worth it"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Baby Car Seat SafeRide",
+    "category": "car_seat",
+    "category_hierarchy": ["gear", "car_seat"],
+    "price": 350,
+    "price_segment": "mid-range",
+    "features": ["safety certified", "comfortable padding", "easy install"],
+    "safety_level": "high",
+    "rating": 4.6,
+    "languages": ["english"],
+    "reviews": [
+      "Feels very safe",
+      "Easy to install",
+      "Comfortable for long rides"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Compact Car Seat TravelGo",
+    "category": "car_seat",
+    "category_hierarchy": ["gear", "car_seat"],
+    "price": 280,
+    "price_segment": "budget",
+    "features": ["lightweight", "compact", "travel-friendly"],
+    "parent_need": ["travel"],
+    "rating": 4.2,
+    "languages": ["english"],
+    "reviews": [
+      "Great for travel",
+      "Lightweight and easy to carry",
+      "Not as padded as others"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Deluxe Car Seat ComfortPlus",
+    "category": "car_seat",
+    "category_hierarchy": ["gear", "car_seat"],
+    "price": 500,
+    "price_segment": "premium",
+    "features": ["extra padding", "reclining seat", "side impact protection"],
+    "safety_level": "high",
+    "rating": 4.8,
+    "languages": ["english"],
+    "reviews": [
+      "Very comfortable",
+      "Top safety features",
+      "Premium feel"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Smart Baby Monitor Ultra",
+    "category": "monitor",
+    "category_hierarchy": ["nursery", "monitor"],
+    "price": 300,
+    "price_segment": "premium",
+    "features": ["AI alerts", "HD video", "sleep tracking"],
+    "parent_need": ["advanced monitoring"],
+    "rating": 4.9,
+    "languages": ["english"],
+    "reviews": [
+      "Amazing smart features",
+      "Very accurate alerts",
+      "Worth the price"
+    ]
+  }
+]
