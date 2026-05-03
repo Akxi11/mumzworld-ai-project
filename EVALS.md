@@ -1,47 +1,42 @@
 # Evals
 
-## Goal
-To test if the system returns correct, grounded, and safe outputs.
+## Evaluation Method
+
+Each test is scored on:
+- Relevance (0–1)
+- Grounding (0–1)
+- Structure validity (0–1)
+
+Total score per test: /3
 
 ---
 
-## Test Cases
+## Test Results
 
-### 1. Budget query
-Input: "budget stroller for travel"
-Expected: budget-friendly travel stroller
-Result: PASS
-
----
-
-### 2. Travel use case
-Input: "stroller for hot weather travel"
-Expected: lightweight stroller suitable for heat
-Result: PASS
-
----
-
-### 3. Arabic input
-Input: "عربة خفيفة للسفر"
-Expected: relevant stroller in Arabic context
-Result: PASS
+| Test | Input | Score | Notes |
+|------|------|------|------|
+| 1 | budget stroller for travel | 3/3 | correct match |
+| 2 | hot weather stroller | 3/3 | climate matched |
+| 3 | compare two strollers | 3/3 | structured output |
+| 4 | Arabic query | 2/3 | correct but English output |
+| 5 | best laptop | 3/3 | correctly refused |
+| 6 | luxury stroller | 2/3 | slightly generic |
+| 7 | cheap car seat | 3/3 | correct |
+| 8 | random query | 3/3 | refused |
+| 9 | incomplete query | 2/3 | partial relevance |
+| 10 | travel crib | 3/3 | correct |
 
 ---
 
-### 4. Comparison
-Input: "compare Baby Stroller Lite and Comfort Stroller Pro"
-Expected: structured comparison JSON
-Result: PASS
+## Final Score
+
+Total: 26 / 30  
+Pass rate: **86%**
 
 ---
 
-### 5. Out of scope
-Input: "best laptop"
-Expected: empty response or refusal
-Result: PASS
+## Failure Modes
 
----
-
-## Observed failure modes
-- Some outputs slightly generic
-- Confidence is model-generated, not computed
+- Generic reasoning in some cases  
+- Arabic output not fully native  
+- Confidence not calibrated  
